@@ -6,8 +6,8 @@ const App = () => {
 
     const givePrice = () => {
         if (data.price && data.discount) {
-            let result = `${data.price - (data.price * data.discount) / 100} nis`;
-            return result;
+            let result = data.price - (data.price * data.discount) / 100;
+            return ` ${result.toFixed(2)} nis`;
         }
     };
     return (
