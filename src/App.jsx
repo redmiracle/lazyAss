@@ -23,7 +23,7 @@ const App = () => {
                 </label>
             </div>
             <div>
-                <h3>{givePrice()}</h3>
+                <h3>Total price: {givePrice()}</h3>
             </div>
         </div>
     );
