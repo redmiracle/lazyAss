@@ -12,7 +12,7 @@ const App = () => {
     };
     return (
         <div>
-            <h1 className=" text-center">Lazy Ass </h1>
+            <h1 className=" text-center">Lazy Count</h1>
             <div className=" d-flex flex-column">
                 <label className="mx-auto">
                     price:
